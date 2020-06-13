@@ -6,14 +6,18 @@
     --enable-multibyte \
     --with-ex-name=vim-ex \
     --with-view-name=vim-view \
+    --with-features=huge \
     --enable-perlinterp=yes \
-    --disable-pythoninterp \
+#    --enable-pythoninterp=yes \ # meh trash
+    --enable-python3interp=yes \
+    --with-python3-config-dir=$(python3-config --configdir) \
     --enable-rubyinterp=yes \
+    --enable-luainterp=yes \
     --disable-netbeans \
     --disable-gpm \
     --disable-hangulinput \
     --disable-xim \
-    --disable-gui \
+    --enable-gui=gtk2 \
     --disable-nls \
     --without-x
 
