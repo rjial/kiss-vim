@@ -6,7 +6,7 @@
     --enable-multibyte \
     --with-ex-name=vim-ex \
     --with-view-name=vim-view \
-    --disable-perlinterp \
+    --enable-perlinterp=yes \
     --disable-pythoninterp \
     --enable-rubyinterp=yes \
     --disable-netbeans \
