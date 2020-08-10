@@ -8,7 +8,6 @@
     --with-view-name=vim-view \
     --with-features=huge \
     --enable-perlinterp=yes \
-#    --enable-pythoninterp=yes \ # meh trash
     --enable-python3interp=yes \
     --with-python3-config-dir=$(python3-config --configdir) \
     --enable-rubyinterp=yes \
